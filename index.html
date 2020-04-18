@@ -5,6 +5,7 @@
   <title>Kuvoice</title>
   <script src="lib/jquery-3.5.0.min.js"></script>
   <script src="naokiroid.js"></script>
+  <script src="audioout.js"></script>
   <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
@@ -12,8 +13,12 @@
 
   <header class="header">
     <h1>なおきボイス！</h1>
-    <a href="https://www.youtube.com/channel/UCMn-r7am0AEAw_zHmSM2VWA/videos?view_as=subscriber">元ネタ動画</a>      
+    <a href="https://www.youtube.com/channel/UCMn-r7am0AEAw_zHmSM2VWA/videos?view_as=subscriber">元ネタ動画</a> 
   </header>
+
+  <div class="select">
+    <label for="audioDevice">Audio output device: </label><select id="audioDevice"></select>
+  </div>
 
   <div class="box1">
     <p>ええよ～</p>
