@@ -1,6 +1,7 @@
 $(document).ready(function () {
   $("#Button1").click(function () {
     inputText = $("#Text1").val();
+    textspeed = $("#Text2").val();
 
     let res = inputText.split("");
 
@@ -10,7 +11,7 @@ $(document).ready(function () {
         let list = "./mp3/naokiroid/"+res[i]+".m4a";
         audioElem.src = list;  
         audioElem.play();
-        setTimeout(function(){doSomethingLoop(maxCount, ++i)}, 350);
+        setTimeout(function(){doSomethingLoop(maxCount, ++i)}, textspeed);
       }
     }
     
