@@ -10,7 +10,7 @@ $(document).ready(function () {
         let list = "./mp3/naokiroid/"+res[i]+".m4a";
         audioElem.src = list;  
         audioElem.play();
-        setTimeout(function(){doSomethingLoop(maxCount, ++i)}, 1000);
+        setTimeout(function(){doSomethingLoop(maxCount, ++i)}, 350);
       }
     }
     
