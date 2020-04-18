@@ -13,6 +13,13 @@ body {
   margin-bottom: 20px;
   text-align:center;
 }
+.header2{
+  background:lightgreen;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+  text-align:center;
+}
 
 h1 {
   position: relative;
@@ -51,6 +58,17 @@ h4 {
   margin: 0; 
   font-size: 20px;
   padding: 5px;
+}
+
+/* 入力フォーム */
+label {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+  margin: .4rem 0;
 }
 
 @media screen and (max-width: 950px) { 
